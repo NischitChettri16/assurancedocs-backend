@@ -1,11 +1,11 @@
 from pathlib import Path
-from paddleocr import PaddleOCR
 
 
 class OCREngine:
 
     def __init__(self, lang="en"):
 
+        from paddleocr import PaddleOCR
         self.ocr = PaddleOCR(
             use_angle_cls=True,
             lang=lang,

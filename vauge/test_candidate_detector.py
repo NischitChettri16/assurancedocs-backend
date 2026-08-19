@@ -1,7 +1,7 @@
 import cv2
 
-from verifyprobackend.vauge.candidate_detector import CandidateDetector
-from verifyprobackend.vauge.box_merger import BoxMerger
+from assurancedocsbackend.vauge.candidate_detector import CandidateDetector
+from assurancedocsbackend.vauge.box_merger import BoxMerger
 
 detector = CandidateDetector()
 merger = BoxMerger()
