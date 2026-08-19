@@ -1,0 +1,9 @@
+path: D:\work\verifyProAI\service\certificate_verification\datasets
+
+train: images/train
+val: images/val
+
+names:
+  0: logo
+  1: stamp
+  2: signature
